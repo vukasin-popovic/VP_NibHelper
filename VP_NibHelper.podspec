@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VP_NibHelper'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'With VP_NibHelper it is easy to instatiate UIViews, like UICollectionViewCell and UITableViewCerll, or common UIView'
 
 # This description is used to generate tags and improve search results.
