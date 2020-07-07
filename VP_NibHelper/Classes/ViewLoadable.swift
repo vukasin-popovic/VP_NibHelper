@@ -6,12 +6,12 @@
 //  Copyright © 2018 HTEC. All rights reserved.
 //
 
-protocol ViewLoadable: NibLoadable {
-    static var instance: Self { get }
+public protocol ViewLoadable: NibLoadable {
+    public static var instance: Self { get }
 }
 
 extension ViewLoadable {
-    static var instance: Self {
+    public static var instance: Self {
         guard let view = nib.instantiate(withOwner: self, options: nil).first as? Self else {
             fatalError("Failed to create an instance of \(self) from \(self.nibName) nib.")
         }
