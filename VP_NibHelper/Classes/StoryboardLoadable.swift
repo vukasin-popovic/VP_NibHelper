@@ -9,8 +9,8 @@
 import UIKit
 
 public protocol StoryboardLoadable {
-    public static var storyboardName: String { get }
-    public static var storyboardIdentifier: String { get }
+    static var storyboardName: String { get }
+    static var storyboardIdentifier: String { get }
 }
 
 
