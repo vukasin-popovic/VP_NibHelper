@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol NibLoadable {
+public protocol NibLoadable {
     static var nibName: String { get }
     static var nib: UINib { get }
 }
