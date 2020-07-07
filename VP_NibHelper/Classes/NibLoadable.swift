@@ -9,8 +9,8 @@
 import UIKit
 
 public protocol NibLoadable {
-    public static var nibName: String { get }
-    public static var nib: UINib { get }
+    static var nibName: String { get }
+    static var nib: UINib { get }
 }
 
 extension NibLoadable where Self: UIView {
