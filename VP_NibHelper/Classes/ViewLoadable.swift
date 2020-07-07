@@ -7,7 +7,7 @@
 //
 
 public protocol ViewLoadable: NibLoadable {
-    public static var instance: Self { get }
+    static var instance: Self { get }
 }
 
 extension ViewLoadable {
