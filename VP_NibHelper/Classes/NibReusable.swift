@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol NibReusable: Reusable, NibLoadable {
+public protocol NibReusable: Reusable, NibLoadable {
 }
 
 extension UITableViewCell: NibReusable {
