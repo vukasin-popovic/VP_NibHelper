@@ -1,0 +1,6 @@
+framework module VP_NibHelper {
+  umbrella header "VP_NibHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

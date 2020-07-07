@@ -1,0 +1,6 @@
+framework module Pods_VP_NibHelper_Tests {
+  umbrella header "Pods-VP_NibHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

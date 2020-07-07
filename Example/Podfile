@@ -1,0 +1,6 @@
+use_frameworks!
+target 'VP_NibHelper_Tests' do
+  pod 'VP_NibHelper', :path => '../'
+  
+  
+end

@@ -1,0 +1,16 @@
+PODS:
+  - VP_NibHelper (0.1.0)
+
+DEPENDENCIES:
+  - VP_NibHelper (from `../`)
+
+EXTERNAL SOURCES:
+  VP_NibHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VP_NibHelper: 02a3432d04057af0804ca88d2c997af356989a54
+
+PODFILE CHECKSUM: f55955211bacf33ff66dd3780eed31d0fa4bce22
+
+COCOAPODS: 1.9.1
